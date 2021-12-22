@@ -1,0 +1,5 @@
+n=int(input()) #---> 7 countries input
+c=set() # c---> countries 
+for i in range(n): #----> to count for loop used to iterate
+  c.add(input())  #---> counting the countries (eleminating repeated countries)
+print(len(c)) # ---> 5 countries output
